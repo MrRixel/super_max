@@ -3,9 +3,11 @@
 ## All commnds Bot work on reply 😉
 ### ✅Commands part #1
 >💭/close|open link :- anti link
->💭/close|open member :- anti invite member
->💭/close|open name :- lock name
->💭/close|open image :- anti image
+>
+>>💭/close|open member :- anti invite member
+>>>💭/close|open name :- lock name
+>>>
+>>>💭/close|open image :- anti image
 >💭/close|open photo :- lock photo
 >💭/close|open sticker :- anti sticker
 >💭/close|open file :- anti file
