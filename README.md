@@ -8,8 +8,9 @@
 >>>💭/close|open name :- lock name
 >>>
 >>>💭/close|open image :- anti image
->💭/close|open photo :- lock photo
->💭/close|open sticker :- anti sticker
+>>>>💭/close|open photo :- lock photo
+>>>>
+>>>>💭/close|open sticker :- anti sticker
 >💭/close|open file :- anti file
 >💭/close|open chat :- close all Gp
 ### ➕
