@@ -226,7 +226,7 @@ function create_config( )
       "info",
       "del",
       },
-    sudo_users = {138342554,187769689},
+    sudo_users = {136888679},
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'}
   }
