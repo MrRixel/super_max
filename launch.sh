@@ -23,10 +23,6 @@ install_luarocks() {
     then echo "Error. Exiting."; exit $RET;
   fi
 
-  make build && make install
-  RET=$?; if [ $RET -ne 0 ];
-    then echo "Error. Exiting.";exit $RET;
-  fi
 
   cd ..
   rm -rf luarocks
@@ -111,11 +107,5 @@ else
     exit 1
   fi
 
-  if [ -f ../.telegram-cli/state ]; then
-    echo "state found"
-    echo "remove it!"
-    rm -rf ../.telegram-cli/state
-  fi
-
-  ./tg/bin/telegram-cli -k ./tg/tg-server.pub -s ./bot/bot.lua -l 1 -E $@
+  ./tg/bin/telegram-cli -k ./tg/tg-server.pub -s ./bot/ShadowBot.lua -l 1 -E $@
 fi
